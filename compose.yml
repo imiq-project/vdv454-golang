@@ -1,0 +1,7 @@
+services:
+  app:
+    image: golang:1.25
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: sleep infinity
